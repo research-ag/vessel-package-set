@@ -19,5 +19,5 @@ In your project's `vessel.dhall` choose the packages you want to use. For exampl
 
 ## Dhall
 
-For information on dhall and the online dhall calculator (including hashes) see:
+For information on dhall and the online dhall calculator (including semantic hashes) see:
 https://dhall-lang.org/
