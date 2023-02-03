@@ -12,7 +12,7 @@ in upstream
 In your project's `vessel.dhall` choose the packages you want to use. For example:
 ```
 {
-  dependencies = [ "base", "lib-mr" ],
+  dependencies = [ "base", "mrr" ],
   compiler = Some "0.7.6"
 }
 ```
