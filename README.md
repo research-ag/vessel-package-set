@@ -5,14 +5,14 @@ Vetted packages we use at this organization
 
 In your project's `package-set.dhall` import this package set as
 ```
-let upstream = https://raw.githubusercontent.com/research-ag/vessel-package-set/main/package-set.dhall sha256:6d37c3081ef6d40cb9cbc7f4d96e7cbfcd6e32c7100d6a30fb0559c01f99d97a
+let upstream = https://raw.githubusercontent.com/research-ag/vessel-package-set/main/package-set.dhall sha256:43464505a66e3bd5709af03a6020b3f84fae2577d25bb00edea6547b7f9aa0f5 
 in upstream
 ```
 
 In your project's `vessel.dhall` choose the packages you want to use. For example:
 ```
 {
-  dependencies = [ "base", "iterext", "sha2", "mrr" ],
+  dependencies = [ "base", "lib-mr" ],
   compiler = Some "0.7.6"
 }
 ```
