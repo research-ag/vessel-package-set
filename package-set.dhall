@@ -6,6 +6,6 @@
 , { dependencies = [ "base" ]
   , name = "mrr"
   , repo = "https://github.com/research-ag/motoko-lib"
-  , version = "f5b5fa1a64694035f2154b4382d549c15ad89c42"
+  , version = "0.2"
   }
 ]
