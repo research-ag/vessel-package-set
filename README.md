@@ -5,7 +5,7 @@ Vetted packages we use at this organization
 
 In your project's `package-set.dhall` import this package set as
 ```
-let upstream = https://raw.githubusercontent.com/research-ag/vessel-package-set/main/package-set.dhall sha256:43464505a66e3bd5709af03a6020b3f84fae2577d25bb00edea6547b7f9aa0f5 
+let upstream = https://raw.githubusercontent.com/research-ag/vessel-package-set/main/package-set.dhall sha256:f9c2653adac00428255d01d8e4cc69c26895a8dcc5ecca2d48e5df93e587589a
 in upstream
 ```
 
